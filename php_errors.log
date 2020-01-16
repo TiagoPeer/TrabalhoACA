@@ -1,0 +1,132 @@
+[15-Jan-2020 18:48:29 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 18:49:51 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 18:50:31 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 18:51:05 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 18:51:18 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 18:51:24 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 18:52:13 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 18:52:13 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 144
+[15-Jan-2020 19:00:18 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:00:33 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:00:49 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:02:41 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:02:41 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 144
+[15-Jan-2020 19:04:16 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:04:16 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in C:\xampp\htdocs\Trabalho ACA\baseDados.php:144
+Stack trace:
+#0 C:\xampp\htdocs\Trabalho ACA\baseDados.php(216): baseDados->insertBoardCompleted('1', '2')
+#1 {main}
+  thrown in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 144
+[15-Jan-2020 19:06:31 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:06:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 134
+[15-Jan-2020 19:07:07 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:07:47 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:08:28 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:10:11 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:18:30 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:18:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 135
+[15-Jan-2020 19:19:09 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:26:35 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:27:24 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:27:42 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:28:12 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:28:38 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:28:38 UTC] PHP Notice:  Undefined index: task in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 137
+[15-Jan-2020 19:28:38 UTC] PHP Notice:  Undefined index: task in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 144
+[15-Jan-2020 19:29:37 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:29:50 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:30:49 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:32:03 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:33:30 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:35:00 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:35:32 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 19:35:32 UTC] PHP Notice:  Undefined index: task in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 137
+[15-Jan-2020 19:36:12 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 63
+[15-Jan-2020 20:40:52 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:40:52 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:41:51 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:41:51 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:41:51 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 179
+[15-Jan-2020 20:42:55 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:42:55 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:42:55 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 179
+[15-Jan-2020 20:43:26 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:43:26 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:43:26 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 179
+[15-Jan-2020 20:44:23 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:44:23 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:44:23 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 180
+[15-Jan-2020 20:47:49 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:47:49 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:47:49 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 183
+[15-Jan-2020 20:48:14 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:48:14 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:48:14 UTC] PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 183
+[15-Jan-2020 20:48:23 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:48:23 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:48:23 UTC] PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 183
+[15-Jan-2020 20:55:41 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:55:41 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:55:41 UTC] PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 183
+[15-Jan-2020 20:56:00 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 20:56:00 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 20:56:00 UTC] PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 183
+[15-Jan-2020 21:01:40 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 21:01:40 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 21:04:06 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 59
+[15-Jan-2020 21:04:06 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 21:04:21 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:04:21 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 179
+[15-Jan-2020 21:04:28 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:04:28 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 179
+[15-Jan-2020 21:05:19 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:05:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 21:05:49 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:05:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 21:07:00 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:07:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 177
+[15-Jan-2020 21:07:54 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:07:54 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 184
+[15-Jan-2020 21:08:22 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:08:27 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:09:06 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:09:06 UTC] PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 191
+[15-Jan-2020 21:09:15 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:09:36 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:09:58 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:10:10 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:10:10 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 184
+[15-Jan-2020 21:10:17 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:10:17 UTC] PHP Notice:  Undefined index: dataFim in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 184
+[15-Jan-2020 21:10:33 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:37:10 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:40:26 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:40:42 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 60
+[15-Jan-2020 21:57:53 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 203
+[15-Jan-2020 21:58:22 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 204
+[15-Jan-2020 21:58:42 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 204
+[15-Jan-2020 22:05:23 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 207
+[15-Jan-2020 22:05:38 UTC] PHP Notice:  Undefined variable: dataInicio in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 207
+[15-Jan-2020 22:05:38 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 207
+[15-Jan-2020 22:06:26 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 206
+[15-Jan-2020 22:06:26 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 206
+[15-Jan-2020 22:06:46 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 206
+[15-Jan-2020 22:06:46 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 206
+[15-Jan-2020 22:06:54 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 206
+[15-Jan-2020 22:06:54 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 206
+[15-Jan-2020 22:07:05 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 206
+[15-Jan-2020 22:07:05 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 206
+[15-Jan-2020 22:09:31 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 207
+[15-Jan-2020 22:09:31 UTC] PHP Notice:  Object of class DateTime could not be converted to int in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 207
+[15-Jan-2020 22:09:48 UTC] PHP Notice:  A non well formed numeric value encountered in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 207
+[15-Jan-2020 22:09:48 UTC] PHP Notice:  Object of class DateTime could not be converted to int in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 207
+[15-Jan-2020 22:12:44 UTC] PHP Notice:  Undefined variable: dateTwo in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 216
+[15-Jan-2020 22:12:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function diff() on null in C:\xampp\htdocs\Trabalho ACA\baseDados.php:216
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 216
+[15-Jan-2020 22:14:47 UTC] PHP Warning:  date_diff() expects parameter 1 to be DateTimeInterface, null given in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 211
+[15-Jan-2020 22:14:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on boolean in C:\xampp\htdocs\Trabalho ACA\baseDados.php:212
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 212
