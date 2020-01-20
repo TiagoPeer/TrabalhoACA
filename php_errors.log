@@ -130,3 +130,5 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 212
+[20-Jan-2020 17:58:15 UTC] PHP Recoverable fatal error:  Object of class DateInterval could not be converted to string in C:\xampp\htdocs\Trabalho ACA\1.php on line 22
+[20-Jan-2020 17:58:44 UTC] PHP Recoverable fatal error:  Object of class DateInterval could not be converted to string in C:\xampp\htdocs\Trabalho ACA\1.php on line 22
