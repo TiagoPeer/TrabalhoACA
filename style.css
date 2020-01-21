@@ -1,0 +1,134 @@
+* {
+	font-family: "montserrat", sans-serif;
+	box-sizing: border-box;
+
+}
+
+html, body {
+	min-height: 100%;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.global{
+	min-height: 100%;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: snow;
+	position: fixed;
+}
+.heading{
+	font-family: "montserrat", sans-serif;
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 50px;
+	background: white;
+}
+form {
+	width: 70%;
+	margin: 30px auto; 
+	border-radius: 50px;
+	padding: 20px;
+	border: 2px solid black;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #000;
+	background: none;
+	outline: none;
+	font-size: 18px;
+}
+.add_btn {
+	border: none;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	outline: none;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #222;
+	padding: 17px 60px;
+	margin: 0 auto;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+	right: 0px;
+	left: 4%;
+}
+
+.tabela {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+	cursor: pointer;
+	font-size: 0.9em;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.tabela thead tr{
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+
+.tabela th, .tabela td{
+	padding: 12px 15px;
+
+}
+
+.tabela tbody tr {
+	border-bottom: 1px solid #dddddd;
+	background-color: white;
+}
+
+.tabela tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.tabela tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+
+.tabela tbody tr.active-row {
+	font-weight: bold;
+	color: #009879;
+}
+
+.trNumber{
+	width: 5%;
+}
+
+.trData{
+	width: 10%;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}

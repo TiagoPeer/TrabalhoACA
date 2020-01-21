@@ -132,3 +132,5 @@ Stack trace:
   thrown in C:\xampp\htdocs\Trabalho ACA\baseDados.php on line 212
 [20-Jan-2020 17:58:15 UTC] PHP Recoverable fatal error:  Object of class DateInterval could not be converted to string in C:\xampp\htdocs\Trabalho ACA\1.php on line 22
 [20-Jan-2020 17:58:44 UTC] PHP Recoverable fatal error:  Object of class DateInterval could not be converted to string in C:\xampp\htdocs\Trabalho ACA\1.php on line 22
+[21-Jan-2020 09:07:35 UTC] PHP Warning:  file_put_contents(): Filename cannot be empty in C:\xampp\htdocs\Trabalho ACA\NasaHelper.php on line 168
+[21-Jan-2020 09:08:16 UTC] PHP Warning:  file_put_contents(): Filename cannot be empty in C:\xampp\htdocs\Trabalho ACA\NasaHelper.php on line 168

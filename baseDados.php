@@ -166,6 +166,11 @@ class baseDados
         return mysqli_query($this->mDB, "SELECT * FROM tasks");
     }//selectAllBoards
 
+    public function selectTaskBoardForAutor($pAutor)
+    {
+        return mysqli_query($this->mDB, "SELECT * FROM tasks WHERE autor='$pAutor'");
+    }//selectAllBoards
+
     public function selectTaskBoardWhere($pTask)
     {
         return mysqli_query($this->mDB, "SELECT dataInicio,task FROM tasks WHERE id='$pTask'");
@@ -176,7 +181,7 @@ class baseDados
         return mysqli_query($this->mDB, "SELECT dataInicio,dataFim FROM completedTask WHERE id='$pTask'");
     }//selectCompletedTaskBoardWhere
 
-    public function getDates($pTask)
+    /*public function getDates($pTask)
     {
 
         $row = mysqli_fetch_array($this->selectTaskBoardWhere($pTask));
@@ -184,13 +189,11 @@ class baseDados
 
         echo $mDataInicio;
         return $mDataInicio;
-    }//getDates
+    }//getDates*/
 
     public function selectCompletedTaskBoard()
     {
         return mysqli_query($this->mDB, "SELECT * FROM completedTask");
     }//selectCompletedTaskBoard
 }
-
-$o = new baseDados();
 
