@@ -23,12 +23,13 @@ class Task
         return $mDuracao->format('%a');
     }
 }
+
 $errors = "";
 
 // connect to database
 $tarefa = new Task();
 $dbEx = new baseDados();
-$tarefa->calculaDuracao(4);
+
 
 // insert a quote if submit button is clicked
 if (isset($_POST['submit'])) {

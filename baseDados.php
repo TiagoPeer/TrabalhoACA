@@ -1,28 +1,25 @@
 <?php
 
-
 class baseDados
 {
     private $mHost, $mUser, $mPass, $mDataBase;
     public $mDB;
 
-    const DEBUG = true;
-
     const CREATE_SCHEMA = "CREATE SCHEMA IF NOT EXISTS `todo`;";
 
-    const CREATE_TABLE_TASK = "
+    const CRIAR_TABELA_TAREFA = "
         CREATE TABLE IF NOT EXISTS `todo`.`tasks` (
         `id` INT NOT NULL AUTO_INCREMENT,
-        `task` VARCHAR(45) NULL,
+        `descricao` VARCHAR(45) NULL,
         `autor` VARCHAR(45) NULL,
         `dataInicio` DATE NULL,
         PRIMARY KEY (`id`));
     ";
 
-    const CREATE_TABLE_COMPLETED_TASKS = "
+    const CRIAR_TABELA_TAREFA_COMPLETA = "
         CREATE TABLE IF NOT EXISTS `todo`.`completedTask` (
         `id` INT NOT NULL AUTO_INCREMENT,
-        `task` VARCHAR(45) NULL,
+        `descricao` VARCHAR(45) NULL,
         `autor` VARCHAR(45) NULL,
        `dataInicio` DATE NULL,
        `dataFim` DATE NULL,
@@ -52,8 +49,8 @@ class baseDados
     {
         $installProcedure = [
             self::CREATE_SCHEMA,
-            self::CREATE_TABLE_COMPLETED_TASKS,
-            self::CREATE_TABLE_TASK
+            self::CRIAR_TABELA_TAREFA_COMPLETA,
+            self::CRIAR_TABELA_TAREFA
         ];
 
         for ($idx = 0; $idx <= count($installProcedure); $idx++) {
@@ -97,57 +94,53 @@ class baseDados
         }
     }//queryExecutor
 
-    public function insertBoard($pTask)
+    public function inserirTarefa($pDescricaoTarefa)
     {
-        $idWhereBoardAlreadyExists = $this->idForBoard($pTask);
-        if ($idWhereBoardAlreadyExists === false) {
+        $idOndeATarefaExiste = $this->idParaTarefa($pDescricaoTarefa);
+        if ($idOndeATarefaExiste === false) {
 
-            //prepared statements?
             $pData = date("Y/m/d");
-            $q = "INSERT INTO tasks (task,autor,dataInicio) VALUES ('$pTask','Tiago','$pData');";
+            $q = "INSERT INTO tasks (descricao,autor,dataInicio) VALUES ('$pDescricaoTarefa','Tiago','$pData');";
             $r = $this->queryExecutor($q, $e, $eM, $strFeedback);
 
             if (is_bool($r) && ($r === true) && ($e === 0)) {
-                $idWhereInserted = $this->mDB->insert_id;
-                echo "1";
-                return $idWhereInserted;
-
+                $idOndeATarefaFoiInserida = $this->mDB->insert_id;
+                return $idOndeATarefaFoiInserida;
             }//if
-
         }//if
         return false;
     }//insertBoard
 
-    public function insertBoardCompleted($pTask, $pDuracao)
+    public function inserirTarefaCompleta($pIdTarefa, $pDuracaoTarefa)
     {
-        $idWhereBoardAlreadyExists = $this->idForBoard($pTask);
-        if ($idWhereBoardAlreadyExists === false) {
-            $row = mysqli_fetch_array($this->selectTaskBoardWhere($pTask));
+        $idOndeATarefaExiste = $this->idParaTarefa($pIdTarefa);
+        if ($idOndeATarefaExiste === false) {
+            
+            $row = mysqli_fetch_array($this->selecionarTarefaOnde($pIdTarefa));
             $mDataInicio = $row['dataInicio'];
             $mTask = $row['task'];
             $pDataFim = date("Y/m/d");
-            $q = "INSERT INTO completedTask (task,autor,dataInicio,dataFim,duracao) VALUES ('$mTask','Tiago','$mDataInicio','$pDataFim','$pDuracao');";
+            $q = "INSERT INTO completedTask (descricao,autor,dataInicio,dataFim,duracao) VALUES ('$mTask','Tiago','$mDataInicio','$pDataFim','$pDuracaoTarefa');";
             $r = $this->queryExecutor($q, $e, $eM, $strFeedback);
 
             if (is_bool($r) && ($r === true) && ($e === 0)) {
-                $idWhereInserted = $this->mDB->insert_id;
-                return $idWhereInserted;
+                $idOndeATarefaFoiInserida = $this->mDB->insert_id;
+                return $idOndeATarefaFoiInserida;
             }//if
         }//if
         return false;
-    }//insertBoard
+    }//inserirTarefaCompleta
 
-    public function removeBoard($pId)
+    public function removerTarefa($pIdTarefa)
     {
-        $q = "DELETE FROM tasks WHERE id=" . $pId;
+        $q = "DELETE FROM tasks WHERE id=" . $pIdTarefa;
         $r = $this->queryExecutor($q, $e, $eM, $strFeedback);
-
         return false;
-    }//insertBoard
+    }//removerTarefa
 
-    public function idForBoard($pTask)
+    public function idParaTarefa($pDescricaoTarefa)
     {
-        $q = "SELECT id FROM tasks WHERE task='$pTask' limit 1;";
+        $q = "SELECT id FROM tasks WHERE descricao='$pDescricaoTarefa' limit 1;";
         $r = $this->queryExecutor($q, $e, $eM, $strF);
 
         if ($e === 0 && ($r instanceof mysqli_result)) {
@@ -159,27 +152,27 @@ class baseDados
             }
         }
         return false;
-    }//idForBoard
+    }//idParaTarefa
 
-    public function selectTaskBoard()
+    public function selecionarTarefa()
     {
         return mysqli_query($this->mDB, "SELECT * FROM tasks");
-    }//selectAllBoards
+    }//selecionarTarefa
 
-    public function selectTaskBoardForAutor($pAutor)
+    public function selecionarTarefaPorAutor($pAutorTarefa)
     {
-        return mysqli_query($this->mDB, "SELECT * FROM tasks WHERE autor='$pAutor'");
-    }//selectAllBoards
+        return mysqli_query($this->mDB, "SELECT * FROM tasks WHERE autor='$pAutorTarefa'");
+    }//selecionarTarefaPorAutor
 
-    public function selectTaskBoardWhere($pTask)
+    public function selecionarTarefaOnde($pIdTarefa)
     {
-        return mysqli_query($this->mDB, "SELECT dataInicio,task FROM tasks WHERE id='$pTask'");
-    }//selectTaskBoardWhere
+        return mysqli_query($this->mDB, "SELECT dataInicio,task FROM tasks WHERE id='$pIdTarefa'");
+    }//selecionarTarefaOnde
 
-    public function selectCompletedTaskBoardWhere($pTask)
+    public function selecionarTarefasCompletasOnde($pIdTarefa)
     {
-        return mysqli_query($this->mDB, "SELECT dataInicio,dataFim FROM completedTask WHERE id='$pTask'");
-    }//selectCompletedTaskBoardWhere
+        return mysqli_query($this->mDB, "SELECT dataInicio,dataFim FROM completedTask WHERE id='$pIdTarefa'");
+    }//selecionarTarefasCompletasOnde
 
     /*public function getDates($pTask)
     {
@@ -191,9 +184,9 @@ class baseDados
         return $mDataInicio;
     }//getDates*/
 
-    public function selectCompletedTaskBoard()
+    public function selecionarTarefasCompletas()
     {
         return mysqli_query($this->mDB, "SELECT * FROM completedTask");
-    }//selectCompletedTaskBoard
+    }//selecionarTarefasCompletas
 }
 
